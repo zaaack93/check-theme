@@ -265,8 +265,8 @@
 
 @media screen and (min-width: 750px) {
   .card__information {
-    padding-bottom: 1.7rem;
-    padding-top: 1.7rem;
+    padding-bottom: 1rem;
+    padding-top: 2.2rem;
   }
 }
 
@@ -398,7 +398,7 @@
   .card-wrapper:hover .media.media--hover-effect > img + img {
     opacity: 1;
     transition: transform var(--duration-long) ease;
-    transform: scale(1.03);
+    /*transform: scale(1.03);*/
   }
 
   .underline-links-hover:hover a {
@@ -492,10 +492,6 @@
   + quantity-popover:not(.rating):not(.card__information-volume-pricing-note),
 .card-information .card__information-volume-pricing-note.card__information-volume-pricing-note--button {
   margin-top: 0;
-}
-
-.card-information > *:not(.visually-hidden:first-child) + *:not(.rating):not(.card__information-volume-pricing-note) {
-  margin-top: 0.7rem;
 }
 
 .card-information .caption {
