@@ -40,7 +40,7 @@
       assign ratio = 1
     endif
   -%}
-  <div class="card-wrapper product-card-wrapper">
+  <product-card class="card-wrapper product-card-wrapper product-card" data-product-url={{ card_product.url }}>
     <div
       class="
         card card--{{ settings.card_style }}
@@ -571,7 +571,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </product-card>
 {%- else -%}
   {%- liquid
     assign ratio = 1
